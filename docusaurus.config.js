@@ -19,7 +19,7 @@ const config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-   url: 'https://rivasofi_git.github.io',
+   url: 'https://sofi_y_conra_git.github.io',
   baseUrl: '/clase_git/',
 
   organizationName: 'rivasofi', // Usually your GitHub org/user name.

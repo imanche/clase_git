@@ -1,11 +1,14 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+  justify-content: center;
+  padding: 3rem 0;
 }
 
-.featureSvg {
-  height: 500px;
-  width: 680px;
+.featureImage {
+  display: block;
+  margin: 0 auto;
+  width: 620px;
+  max-width: 95%;
+  height: auto;
 }

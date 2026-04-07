@@ -11,13 +11,13 @@ const FeatureList = [
 
 function Feature({Image, title, description}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--12')}>
       <div className="text--center">
-         <img src={useBaseUrl(Image)} className={styles.featureSvg} />
+        <img src={useBaseUrl(Image)} className={styles.featureImage} />
       </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+        {title && <Heading as="h3">{title}</Heading>}
+        {description && <p>{description}</p>}
       </div>
     </div>
   );
